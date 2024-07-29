@@ -1,6 +1,6 @@
 .banner
-{
-    background-image: url("C:/Users/User/Documents/GitHub/Virtual CV/RagingKoala.github.io/Virtual CV Project/resources/images/Banner Background.jpg"); 
+{    
+    background-image: url("Virtual CV Project/resources/images/Banner Background.jpg"); 
     mask-image: linear-gradient(black, transparent);
     color: white;
     margin-top: 25px;
