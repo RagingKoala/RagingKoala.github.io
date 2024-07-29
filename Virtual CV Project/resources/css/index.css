@@ -1,9 +1,76 @@
+.background
+{
+    background-color: #C2C8D2;
+}
+
 .banner
 {    
-    background-image: url("Virtual CV Project/resources/images/Banner Background.jpg"); 
-    mask-image: linear-gradient(black, transparent);
-    color: white;
-    margin-top: 25px;
+    height: 130px;
+    background-image: url("C:/Users/User/Documents/GitHub/Virtual CV/RagingKoala.github.io/Virtual CV Project/resources/images/CV Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f6f6f6;
     text-align: center;
-    padding: 10px 0;
+    text-shadow: 3px 3px black;
+    font-size: x-large;
+    padding: 15px ;
+}
+
+.btn-group .button
+{
+    background-color: #C2C8D2;
+    border: none;
+    height: 50px;
+    width: auto;
+    color: #0d2f61;    
+    padding: auto;
+    margin-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 350ms;
+    float: left;
+}
+
+.btn-group .button:hover
+{
+    background-color: #0d2f61;
+    color: #f6f6f6;
+}
+
+.gridView
+{
+    margin-top: 15px;
+    display: inline-grid;
+    column-count: 2;
+    column-gap: 35px;
+}
+
+.gridView .basicInfo
+{
+    border: #0d2f61 4px solid;
+    margin-left: 15px;
+    width: 500px;
+    height: 700px;
+    grid-column: 1;
+    grid-row: 1 / 3;    
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
+}
+
+.gridView .mainInfo
+{
+    border: #0d2f61 4px solid;
+    width: 1000px;
+    height: 700px;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
 }

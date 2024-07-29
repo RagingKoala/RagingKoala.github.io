@@ -8,22 +8,35 @@
 	<link rel="stylesheet" href="./Virtual CV Project/resources/css/index.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<style>
-		html,body,h1 {font-family: "Roboto", sans-serif}
+		html,body,h1,h3,p {font-family: "Roboto", sans-serif}
 	</style>
 </head>
-<body>
+<body class="background">	
 	<!-- Banner Section -->
-	 <div class="banner">
-		<h1>Kiaan Bruwer</h1>
-		<img src="" alt="">
-		<p>Virtual CV</p>
-		<button>About Me</button>
-	 </div>
+	<div class="banner">
+		<h1 >Virtual CV</h1>
+	</div>
 
-	<!-- Main Viewport -->
-	 <div>
-		<span>CV</span>
-		<p>About me section</p>
-	 </div>
+	<!-- Links Section -->
+	<div class="btn-group">
+		<button class="button" name="btnCV">
+			<p>Virtual CV Repository</p>
+		</button>
+		<button class="button" name="btnWebApp">
+			<p>Full-Stack Web App Repository</p>
+		</button>
+	</div>
+	<p style="clear:both"></p>
+
+	<!-- CV Section -->
+	<div class="gridView">
+		<div class="basicInfo">
+			<h3 style="text-align: center; background-color:#0d2f61; color:#f6f6f6; margin-top:0; border-top-left-radius:6px; border-top-right-radius:6px; padding:6px;">Basic Information</h3>
+		</div>
+
+		<div class="mainInfo">
+			<h3 style="text-align: center; background-color:#0d2f61; color:#f6f6f6; margin-top:0; border-top-left-radius:6px; border-top-right-radius:6px; padding:6px;">Main Information</h3>
+		</div>
+	</div>
 </body>
 </html>
