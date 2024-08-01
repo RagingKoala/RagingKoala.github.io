@@ -6,7 +6,7 @@
 .banner
 {    
     height: 130px;
-    background-image: url("C:/Users/User/Documents/GitHub/Virtual CV/RagingKoala.github.io/Virtual CV Project/resources/images/CV Banner.png");
+    background-image: url(../images/CV\ Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #f6f6f6;
@@ -53,24 +53,106 @@
     border: #0d2f61 4px solid;
     margin-left: 15px;
     width: 500px;
-    height: 700px;
+    height: fit-content;
     grid-column: 1;
-    grid-row: 1 / 3;    
+    grid-row: 1 / 5;    
     box-sizing: border-box;
     border-radius: 12px;
     box-shadow: 4px 4px 8px black;
     background-color: #f6f6f6;
+    padding-bottom: 20px;
 }
 
-.gridView .mainInfo
+.gridView .education
 {
     border: #0d2f61 4px solid;
     width: 1000px;
-    height: 700px;
+    height: fit-content;
     grid-column: 2;
-    grid-row: 1 / 3;
+    grid-row: 1;
     box-sizing: border-box;
     border-radius: 12px;
     box-shadow: 4px 4px 8px black;
     background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.gridView .skills
+{
+    border: #0d2f61 4px solid;
+    width: 1000px;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 2;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.gridView .additionalCourses
+{
+    border: #0d2f61 4px solid;
+    width: 1000px;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.gridView .workExperience
+{
+    border: #0d2f61 4px solid;
+    width: 1000px;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 4;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.gridView .references
+{
+    border: #0d2f61 4px solid;
+    width: 1000px;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 5;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.gridView .basicInfo .portrait
+{
+    background-image: url(../images/Portrait\ 2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: auto;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+
+.footer
+{
+    height: 130px;
+    background-image: url(../images/CV\ Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f6f6f6;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: x-large;
+    padding: 15px ;
 }
